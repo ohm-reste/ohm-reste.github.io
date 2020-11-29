@@ -3,10 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Calendario dell'avvento</title>
+	<title>Ωreste</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<!-- Main CSS -->
-	<link href="css/index.css" rel="stylesheet" type="text/css">
-
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link rel="icon" type="image/png" href="imm/favicon.png"/>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
@@ -17,7 +20,9 @@
 			<div class="row">
 				<div class="col-md-12">
 					<nav class="navbar navbar-dark navbar-expand-md">
-						<a class="navbar-brand" href="index.html">Oreste</a>
+						<a class="navbar-brand" href="index.html">
+							<img src="imm/O.png" style="position: relative;height: 40px;">reste
+						</a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
@@ -25,13 +30,25 @@
 						<div class="collapse navbar-collapse" id="navbar">
 							<ul class="navbar-nav ml-auto">
 								<li class="nav-item">
-									<a class="nav-link" style="color: white; font-size: 18px" href="intro.html">Intro</a>
+									<a class="nav-link" style="color: white; font-size: 18px" href="intro.html">Chi è Oreste?</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" style="color: white; font-size: 18px" href="aboutus.html">Noi</a>
+									<a class="nav-link" style="color: white; font-size: 18px" href="aboutus.html">λ</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" style="color: white; font-size: 18px" href="download.html">Scarica</a>
+									<a class="nav-link" style="color: white;" href="download.html">
+										<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cloud-download" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M4.406 1.342A5.53 5.53 0 0 1 8 0c2.69 0 4.923 2 5.166 4.579C14.758 4.804 16 6.137 16 7.773 16 9.569 14.502 11 12.687 11H10a.5.5 0 0 1 0-1h2.688C13.979 10 15 8.988 15 7.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 2.825 10.328 1 8 1a4.53 4.53 0 0 0-2.941 1.1c-.757.652-1.153 1.438-1.153 2.055v.448l-.445.049C2.064 4.805 1 5.952 1 7.318 1 8.785 2.23 10 3.781 10H6a.5.5 0 0 1 0 1H3.781C1.708 11 0 9.366 0 7.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+											<path fill-rule="evenodd" d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"/>
+										</svg>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" style="color: white;" href="form.html">
+										<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pencil-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+										</svg>
+									</a>
 								</li>
 							</ul>
 						</div>
@@ -48,70 +65,70 @@
 					<a href="dicembre/1.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">1</h1></button></a>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/2.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">2</h1></button></a>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">2</h1></button></a>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/3.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">3</h1></button></a>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">3</h1></button></a>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/4.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">4</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">4</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/5.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">5</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">5</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/6.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">6</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">6</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/7.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">7</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">7</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/8.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">8</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">8</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/9.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">9</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">9</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/10.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">10</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">10</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/11.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">11</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">11</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/12.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">12</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">12</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/13.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">13</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">13</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/14.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">14</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">14</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/15.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">15</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">15</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/16.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">16</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">16</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/17.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">17</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">17</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/18.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">18</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">18</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/19.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">19</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">19</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/20.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">20</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">20</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/21.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">21</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">21</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/22.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">22</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">22</h1></button>
 				</div>
 				<div class="col-sm-">
-					<a href="dicembre/23.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">23</h1></button>
+					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">23</h1></button>
 				</div>
 				<div class="col-sm-">
 					<a href="toosoon.html" class="link_page"><button id="casella" type="button" class="btn btn-light btn-block"><h1 class="testo">24</h1></button>
